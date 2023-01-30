@@ -18,3 +18,5 @@ Most of the work here was originally made by spAnser and the contributors over a
 
 For a JS only version check out: https://github.com/RealDebugg/resource-builder-js
 The JS version was built a little differently, resources won't restart automatically. You'll also need to initialise every new resource manually (run `yarn` within the resource folder). After that, you'll be able to watch/build every initialised resource parallel to each other, however the setup process is the same.
+
+Both of these boilerplates don't have any native support for UI, if anything it'll probably be added to this version in the future. If you're building any type of UI on top of this then you'll have to add the dependencies yourself.
