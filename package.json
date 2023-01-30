@@ -1,0 +1,33 @@
+{
+  "name": "nwrp-resourceBuilder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "create-resource": "node ./resource-generator.js",
+    "watch": "lerna run watch --stream --parallel",
+    "build": "lerna run build --stream --parallel"
+  },
+  "devDependencies": {
+    "@citizenfx/client": "^2.0.6242-1",
+    "@citizenfx/server": "^2.0.6242-1",
+    "@types/node": "^18.11.18",
+    "chalk": "^4",
+    "change-case": "^4.1.2",
+    "fs-extra": "^11.1.0",
+    "glob": "^8.0.3",
+    "lerna": "^6.4.1",
+    "typescript": "^4.9.4",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "dgram": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "glob": "^8.0.3",
+    "path": "^0.12.7",
+    "remove-files-webpack-plugin": "^1.5.0",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.75.0"
+  }
+}

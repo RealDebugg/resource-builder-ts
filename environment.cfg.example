@@ -1,0 +1,2 @@
+#Used in /webpack/webpack.hotreload.js for auto reloading resources on watch/build
+rcon_password "qwerty"
